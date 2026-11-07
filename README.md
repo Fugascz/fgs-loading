@@ -9,6 +9,9 @@ A custom FiveM loading screen for ProjectOne RP.
 - Desktop-focused layout
 - Google Font: Rajdhani
 
+## Preview
+You can view the [loading screen here](https://prnt.sc/aCAlIMpfH_mS).
+
 ## Installation
 
 ensure the resource in your server configuration:
