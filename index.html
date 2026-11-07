@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#080a10">
+        <title>ProjectOne | Připojování</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="screen">
+            <div class="city-glow city-glow-one"></div>
+            <div class="city-glow city-glow-two"></div>
+            <div class="city-grid" aria-hidden="true"></div>
+            <div class="scanline" aria-hidden="true"></div>
+
+            <header class="topbar">
+                <a class="wordmark" href="#" aria-label="ProjectOne">
+                    <span class="wordmark-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+                    <span>ProjectOne<span class="wordmark-accent"> Roleplay</span></span>
+                </a>
+                <div class="top-status">
+                    <span class="status-light"></span>
+                    <span id="connection-status">PŘIPOJOVÁNÍ K SERVERU</span>
+                </div>
+                <span class="server-label">CZ/SK ROLEPLAY</span>
+            </header>
+
+            <section class="main-content" aria-live="polite">
+                <div class="hero-copy">
+                    <div class="eyebrow"><span></span> TVŮJ PŘÍBĚH ZAČÍNÁ TADY</div>
+                    <h1>VÍTEJ<br>VE <span>MĚSTĚ.</span></h1>
+                    <p>Ulice už ožívají. Připrav se na nový začátek<br class="desktop-break"> a vytvoř si příběh, který bude jen tvůj.</p>
+                    <div class="city-caption"><span class="caption-line"></span><span>LOS SANTOS, SAN ANDREAS</span></div>
+                </div>
+
+                <section class="loading-panel" aria-label="Stav připojení">
+                    <div class="panel-top">
+                        <div class="connection-copy">
+                            <span class="label">SECURE SERVER LINK</span>
+                            <strong>ProjectOne RP</strong>
+                        </div>
+                        <div class="live-indicator"><span></span> LIVE</div>
+                    </div>
+
+                    <div class="progress-area">
+                        <div class="progress-copy">
+                            <div>
+                                <span class="label">PRŮBĚH PŘIPOJENÍ</span>
+                                <h2 id="progress-label">Navazování spojení</h2>
+                            </div>
+                            <div
+                                class="progress-track"
+                                id="progress-track"
+                                role="progressbar"
+                                aria-label="Průběh načítání"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                aria-valuenow="0"
+                            >
+                                <span id="progress-value">0%</span>
+                            </div>
+                        </div>
+                        <div class="progress-footer">
+                            <span class="progress-mark" aria-hidden="true"></span>
+                            <span id="progress-detail">Připravujeme připojení…</span>
+                            <span class="loader-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                        </div>
+                    </div>
+                    
+                </section>
+            </section>
+
+            <footer class="bottom-bar">
+                <span>FIVEM ROLEPLAY</span>
+                <span class="bottom-divider"></span>
+                <span>VSTUPUJEŠ DO NOVÉHO SVĚTA</span>
+            </footer>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
